@@ -11,7 +11,7 @@ def filter(cmd: str):
 async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
-        chat_id=msg.chat.id,
+        #chat_id=msg.chat.id,
         text=f"""★¦ اهلا بـك عزيـزي  {msg.from_user.mention}
 ★¦ فـي بـوت اسـتـخـراج الـجـلـسـات
 ★¦ يمكنك استخراج الجلسات الـتالية
@@ -19,8 +19,8 @@ async def start(bot: Client, msg: Message):
 ★¦ بـايـروجـرام مـيوزك احـدث إصـدار 
 ★¦ تيرمـكـس للحسابات & تيرمـكـس للبوتات
 
-★¦ بواسطـة : [𓊆𝘼𝙡𝙈𝙤𝙧𝙝𝙚𝙗𓊇 ⌁ 🚦](tg://user?id=6670911845) √""",)
-        """reply_markup=InlineKeyboardMarkup(
+★¦ بواسطـة : [𓊆𝘼𝙡𝙈𝙤𝙧𝙝𝙚𝙗𓊇 ⌁ 🚦](tg://user?id=6670911845) √""",
+        reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="⦓ بـدء اسـتـخـࢪاج جـلـسـة ⦔", callback_data="generate")
@@ -33,4 +33,3 @@ async def start(bot: Client, msg: Message):
         ),
         disable_web_page_preview=True,
     )
-"""
