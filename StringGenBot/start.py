@@ -20,7 +20,7 @@ async def start(bot: Client, msg: Message):
 ★¦ تيرمـكـس للحسابات & تيرمـكـس للبوتات
 
 ★¦ بواسطـة : [𓊆𝘼𝙡𝙈𝙤𝙧𝙝𝙚𝙗𓊇 ⌁ 🚦](tg://user?id=6670911845) √""",
-        reply_markup=InlineKeyboardMarkup(
+        """reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="⦓ بـدء اسـتـخـࢪاج جـلـسـة ⦔", callback_data="generate")
@@ -33,3 +33,4 @@ async def start(bot: Client, msg: Message):
         ),
         disable_web_page_preview=True,
     )
+"""
