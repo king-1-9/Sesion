@@ -21,22 +21,22 @@
     "API_ID": {
       "description": "ضع ايبي ايدي احصل علية من my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "20036317"
     },
     "API_HASH": {
       "description": "ضع ايبي هاش احصل علية من my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "986cb4ba434870a62fe96da3b5f6d411"
     },
     "OWNER_ID": {
       "description": "ضع ايدي مالك البوت",
       "required": true,
-      "value": ""
+      "value": "5145609515"
     },
     "MONGO_DB_URI": {
       "description": "ضع كود مونجو احصل علية من cloud.mongodb.com",
       "required": true,
-      "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority"
+      "value": "mongodb+srv://Music:Music@cluster0.yjgit72.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "MUST_JOIN": {
       "description": "ضع يوزر جروب للبوت.(without @)",
